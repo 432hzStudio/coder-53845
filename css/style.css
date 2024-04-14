@@ -202,7 +202,7 @@ footer section div ul li a {
     height: 80px;
     display: flex;
     align-items: center;
-    margin:;
+    
 
 }
 
@@ -218,7 +218,7 @@ footer section div ul li a {
     height: 75px;
     display: flex;
     align-items: center;
-    margin: ;
+   
 }
 
 
@@ -326,7 +326,7 @@ footer section div ul li a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    object-fit: ;
+   
 
 }
 
@@ -429,406 +429,235 @@ footer section div ul li a {
 }
 
     
+/** RESPONSIVE - Media query INDEX**/
 
-
-@media screen and (max-width:1180px) {
-    header {
-        flex-direction: column;
-        justify-content: center;
-        height: 200px;
-    }
-
-
-
-
-    header a img {
-        width: 200px;
-        height: 100px;
-        display: flex;
-        align-items: ;
-        margin: 5px;
-        padding: 5px;
-    }
-
-    header nav ul {
-        list-style: none;
-        display: flex;
-        align-items: baseline;
-    }
-
-
-    header nav ul li {
-        display: flex;
-        margin: 15px;
-        justify-content: center;
-        align-items: baseline;
-        font-size: 15px;
-
-    }
-
-
-
-
-}
-
-
-@media screen and (max-width: 800px) {
-
-    .imagenprincipal {
-        display: none;
-    }
-
+@media screen and (max-width:1110px) {
     .seccionuno {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         margin: 20px;
         padding: 20px;
     }
-
+    
+    
     .seccionuno div {
-        width: 100%;
-        margin: 10px;
-
+        width: 50%;
+        margin: 20px;
     }
-
+    
     .seccionuno div h2 {
-        font-size: 30px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        margin-bottom: 10px;
+        font-size: 25px;
     }
-
+    
     .seccionuno div p {
-        font-size: 20px;
-        justify-content: center;
-        align-items: center;
+        font-size: 15px;
     }
-
+    
     .seccionuno img {
         width: 600px;
         height: 400px;
     }
-
+    
+    /** SECCION 2**/
+    
     .secciondos {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         margin: 20px;
         padding: 20px;
     }
-
+    
+    
     .secciondos div {
-        width: 100%;
-        margin: 10px;
-
+        width: 50%;
+        margin: 20px;
     }
-
+    
     .secciondos div h2 {
-        font-size: 30px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        margin-bottom: 10px;
+        font-size: 25px;
     }
-
+    
     .secciondos div p {
-        font-size: 20px;
-        justify-content: ;
-        align-items: ;
+        font-size: 15px;
     }
-
+    
+    .secciondos img {
+        width: 600px;
+        height: 400px;
+    }
+    
+    /** SECCION 3**/
+    
     .secciontres {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         margin: 20px;
         padding: 20px;
     }
-
-
-
+    
+    
     .secciontres div {
-        width: 100%;
-        margin: 10px;
-
+        width: 50%;
+        margin: 20px
     }
-
+    
     .secciontres div h2 {
-        font-size: 30px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        margin-bottom: 10px;
-    }
-
-    .secciontres div p {
-        font-size: 20px;
-        justify-content: ;
-        align-items: ;
-    }
-
-
-
-
-}
-
-@media screen and (max-width: 784px) {
-
-    header {
-        display: flex;
-        flex-direction: ;
-        justify-content: ;
-        align-items: ;
-
-    }
-
-    header nav {
-        display: flex;
-        justify-content: space-between;
-    }
-
-
-    header nav ul li a {
-        flex-direction: ;
         font-size: 25px;
-        margin: 5px
     }
-
-    header nav ul li {
-        display: flex;
-        justify-content: ;
-        margin: 5px;
-
+    
+    .secciontres div p {
+        font-size: 15px;
     }
+    
+    .secciontres img {
+        width: 600px;
+        height: 400px;
+    }
+    
+
 
 }
 
-@media screen and (max-width:625px) {
-
-
-
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: ;
-        height: 150px;
-        align-items: ;
-    }
-
-    header a {
-        display: flex;
-        justify-content: ;
-        align-items: ;
-
-
-    }
-
-    header nav {
-        display: ;
-        justify-content: ;
-
-    }
-
-    /*NO LOGRO PONER EL NAV EN FORMA DE LISTADO A LA DERECHA EN EL HEADER y A LA IZQ EL LOGO*/
-
-    header nav ul {
-        display: flex;
-        flex-direction: ;
-        justify-content: space-between;
-        align-items: ;
-
-
-
-    }
-
-    header nav ul li a {
-        font-size: 20px;
-        margin: 1px;
-
-
-
-    }
-
-    header main {
-        justify-content: ;
-        align-items: ;
-        display: ;
-    }
-
-    /* NO LOGRO PONER LAS SECCIONES CENTRADAS, H2 PARRAFOS E IMAGENES*/
-
+@media screen and (max-width:900px) {
     .seccionuno {
-        width: 75%;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
+        flex-direction: column;
         margin: 20px;
-        padding: ;
-
-
+        padding: 20px;
     }
-
+    
+    
+    .seccionuno div {
+        width: 100%;;
+        margin: 20px;
+    }
+    
     .seccionuno div h2 {
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 10px;
+        font-size: 25px;
     }
-
+    
     .seccionuno div p {
         font-size: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-
     }
-
+    
     .seccionuno img {
-        width: 400px;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 600px;
+        height: 400px;
     }
-
-
+    
+    /** SECCION 2**/
+    
     .secciondos {
-        width: 75%;
-        justify-content: ;
-        align-items: ;
-        margin: 5px;
-        padding: 5px;
-
-
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
     }
-
+    
+    
+    .secciondos div {
+        width:100%;
+        margin: 20px;
+    }
+    
     .secciondos div h2 {
-        font-size: 20px;
-
-        margin-bottom: 10px;
+        font-size: 25px;
     }
-
+    
     .secciondos div p {
         font-size: 15px;
+    }
+    
+    .secciondos img {
+        width: 600px;
+        height: 400px;
+    }
+    
+    /** SECCION 3**/
+    
+    .secciontres {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px; 
+        padding: 20px;
+    }
+    
+    
+    .secciontres div {
+        width: 100% ;
+    }
+    
+    .secciontres div h2 {
+        font-size: 25px;
+    }
+    
+    .secciontres div p {
+        font-size: 15px;
+    }
+    
+    .secciontres img {
+        width: 600px;
+        height: 400px;
+    }    
 
 
+    .opciones .nav-link {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    .opciones .nav-link {
+        font-size: 12px;
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .opciones ul {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        
+
+    }
+}
+
+@media screen and (max-width:650px) {
+    .seccionuno img {
+        width: 80%;
+        height: 60%;
     }
 
     .secciondos img {
-        width: 400px;
-        height: 200px;
+        width: 80%;
+        height: 60%;
+
+    }.secciontres img {
+        width: 80%;
+        height: 60%;
     }
 
+} 
 
-    .secciontres {
-        width: 75%;
-        justify-content: ;
-        align-items: ;
-        margin: 5px;
-        padding: 5px;
-
-
-    }
-
-    .secciontres div h2 {
-        font-size: 20px;
-
-        margin-bottom: 10px;
-    }
-
-    .secciontres div p {
-        font-size: 15px;
-
-
-    }
-
-    .secciontres img {
-        width: 400px;
-        height: 200px;
-    }
-
-
-    footer {
-        background-color: rgb(63, 241, 221);
-        width: 100%;
-        height: 100px;
-        display: flex;
-        justify-content: ;
-        align-items: center;
-
-    }
-
-    footer section {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: ;
-
-    }
-
-
-    footer section div ul {
-        display: flex;
-        justify-content: ;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        list-style: none;
-    }
-
-    footer section div ul li a {
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: 100;
-        font-family: helvetica;
-        color: white;
-        display: flex;
-        align-items: center;
-        list-style: none;
-        margin: ;
-    }
-
-    .imagenfiscal {
-        width: 60px;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        margin: 20px;
-
-    }
-
-    .opciones {
-        width: 400px;
-        height: 100px;
-        display: flex;
-        align-items: center;
-    }
-
-    .sellobureauveritas {
-        width: 150px;
-        height: 75px;
-        display: flex;
-        align-items: center;
-        margin: 20px;
-    }
-
-
-
+@media screen and (max-width:400px) { 
     .textopie {
-        background-color: rgb(63, 241, 221);
-        font-family: helvetica;
-
+        font-size: 12px;
     }
+}
 
-
-
-
+@media screen and (max-width:350px) {
+    .carousel { 
+        display: none;
+    }
 }
