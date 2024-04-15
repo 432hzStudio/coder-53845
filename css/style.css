@@ -22,7 +22,7 @@ header a img {
 
 .navbar {
     padding: 0px;
-    
+        
 }
 
 .container-fluid {
@@ -53,9 +53,9 @@ button .navbar-toggler {
 /**------MAIN----**/
 /**section**/
 
-.carrusel img {
-    height: 358px;
-    /*display: flex;*/
+.carrusel {
+    width: 100%;
+    margin: 0;
 }
 
 
@@ -244,14 +244,13 @@ footer section div ul li a {
 }
 
 .portada-nosotros img {
-    width: 500px;
-    height: 300px;
+    width: 40%;
 }
 
 .texto-nosotros {
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 20px;
     font-size: 20px;
     font-weight: 500;
 
@@ -292,6 +291,7 @@ footer section div ul li a {
     background-image: url(../img/primeritemservicios.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    color: black;
 
 }
 
@@ -302,6 +302,7 @@ footer section div ul li a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 
 .tercer-item {
@@ -309,6 +310,7 @@ footer section div ul li a {
     background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 
 }
 
@@ -318,6 +320,7 @@ footer section div ul li a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    color: white;
 }
 
 .quinto-item {
@@ -326,6 +329,7 @@ footer section div ul li a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    color: white;
    
 
 }
@@ -336,6 +340,7 @@ footer section div ul li a {
     background-repeat: no-repeat;
     object-fit: cover;
     grid-row: 3/5;
+    color: white;
 
 }
 
@@ -346,6 +351,7 @@ footer section div ul li a {
     background-repeat: no-repeat;
     background-position: center;
     grid-row: 4/5;
+    color: black;
 }
 
 
@@ -355,6 +361,7 @@ footer section div ul li a {
     background-repeat: no-repeat;
     background-position: center;
     grid-row: 4/5;
+    color: white;
 }
 
 .grid-item {
@@ -377,6 +384,53 @@ footer section div ul li a {
 
 
 }
+
+/* MAIN EQUIPAMIENTO*/
+
+.tarjeta-uno { 
+    width: 30%;
+    border-style:double;
+}
+
+.tarjeta-uno img {
+    width: 400px; 
+
+}
+
+.tarjeta-dos { 
+    width: 30%;
+    border-style:double;
+}
+
+.tarjeta-dos img {
+    width: 400px; 
+
+}
+
+.tarjeta-tres { 
+    width: 30%;
+    border-style:double;
+}
+
+.tarjeta-tres img {
+    width: 400px; 
+
+}
+
+.tarjeta-cuatro { 
+    width: 30%;
+    border-style:double;
+}
+
+.tarjeta-cuatro img {
+    width: 400px; 
+
+}
+
+main section { 
+    margin: 10px;
+}
+
 
 /*MAIN CONTACTOS*/
 
