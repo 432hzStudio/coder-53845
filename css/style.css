@@ -58,7 +58,7 @@ button .navbar-toggler {
     margin: 0;
 }
 
-
+/**MAIN INDEX**/
 /**SECCION UNO**/
 
 .seccionuno {
@@ -267,31 +267,23 @@ footer section div ul li a {
     border: solid 20px color red;
     display: grid;
     grid-template-rows: 300px 300px 300px 300px;
-    /*grid-template-columns: 200px 200px 200px;*/
-    /*grid-template-columns: 33.3% 33.3% 33.3%;*/
-    /*grid-auto-rows: 300px;*/
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
         "primer-item primer-item tercer-item"
         "segundo-item cuarto-item cuarto-item"
         "segundo-item quinto-item sexto-item"
-        "septimo-item octavo-item sexto-item"
-    ;
-    /*gap: 10px;*/
-    /*column-gap: 10px ;
-    row-gap: 10px;*/
+        "septimo-item octavo-item sexto-item";
     margin: 50px;
-    ;
+    
 }
 
 .primer-item {
-    /*grid-column-start: 1;
-    grid-column-end: 3 ;*/
     grid-column: 1/3;
     background-image: url(../img/primeritemservicios.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: black;
+
 
 }
 
@@ -387,100 +379,56 @@ footer section div ul li a {
 
 /* MAIN EQUIPAMIENTO*/
 
-.tarjeta-uno { 
-    width: 30%;
-    border-style:double;
-}
-
-.tarjeta-uno img {
-    width: 400px; 
-
-}
-
-.tarjeta-dos { 
-    width: 30%;
-    border-style:double;
-}
-
-.tarjeta-dos img {
-    width: 400px; 
-
-}
-
-.tarjeta-tres { 
-    width: 30%;
-    border-style:double;
-}
-
-.tarjeta-tres img {
-    width: 400px; 
-
-}
-
-.tarjeta-cuatro { 
-    width: 30%;
-    border-style:double;
-}
-
-.tarjeta-cuatro img {
-    width: 400px; 
-
-}
 
 main section { 
+    display: flex;
     margin: 10px;
-}
-
-
-/*MAIN CONTACTOS*/
-
-.ubicacion {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-
-}
-
-.textoubi {
-    width: 50%;
-    font-size: 25px;
-}
-
-.indicaciones-contacto { 
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
+    justify-content:space-between;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 
 
-.tipo-de-consulta { 
-    display: flex;
-    margin: 20px;
-    font-size: 20px;
+.item-tarjeta { 
+    border: solid 2px;
+    margin: 10px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    
     
 }
 
-.formulario {
-    font-size: 20px;
-    display: flex ;
-    justify-content: space-around;
-    margin: 20px;
+.item-tarjeta img { 
+   width: 250px;
+   height: 250px;
+   
+} 
 
+.item-tarjeta h2 { 
+    font-size: 25px;
 }
 
-.botones-formulario { 
-    display: flex;
-    justify-content: right;
-    margin-top: 20px;
-    margin-right: 730px;
-    margin-bottom: 20px;
+.item-tarjeta p {
+    margin: 10px;
+    margin: 10px 10px 30px 10px;
 }
+
+.item-tarjeta a { 
+    padding: 10px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border: 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+   
+    }
+
+
+
 
     
 /** RESPONSIVE - Media query INDEX**/
@@ -715,6 +663,58 @@ main section {
         display: none;
     }
 }
+
+/*MAIN CONTACTOS*/
+
+.ubicacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.textoubi {
+    width: 50%;
+    font-size: 25px;
+}
+
+.indicaciones-contacto { 
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+.tipo-de-consulta { 
+    display: flex;
+    margin: 20px;
+    font-size: 20px;
+    
+}
+
+.formulario {
+    font-size: 20px;
+    display: flex ;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.botones-formulario { 
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-right: 730px;
+    margin-bottom: 20px;
+}
+
+
 
 
 /** RESPONSIVE - Media query CONTACTO**/

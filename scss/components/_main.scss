@@ -1,0 +1,84 @@
+.seccionuno {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.seccionuno div {
+    width: 50%;
+    margin: 20px;
+}
+
+.seccionuno div h2 {
+    font-size: nth($font-size,2);
+}
+
+.seccionuno div p {
+    font-size: nth($font-size,3);
+}
+
+.seccionuno img {
+    width: 600px;
+    height: 400px;
+}
+
+/** SECCION 2**/
+
+.secciondos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.secciondos div {
+    width: 50%;
+    margin: 20px;
+}
+
+.secciondos div h2 {
+    font-size: nth($font-size,2);
+}
+
+.secciondos div p {
+    font-size: nth($font-size,3);
+}
+
+.secciondos img {
+    width: 600px;
+    height: 400px;
+}
+
+/** SECCION 3**/
+
+.secciontres {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.secciontres div {
+    width: 50%;
+    margin: 20px
+}
+
+.secciontres div h2 {
+    font-size: nth($font-size,2);
+}
+
+.secciontres div p {
+    font-size: nth($font-size,3);
+}
+
+.secciontres img {
+    width: 600px;
+    height: 400px;
+}
