@@ -12,9 +12,17 @@
   }
 
   .grid-item { 
-    border: solid 2px orange;
     background-size: cover;
     background-position: center;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .grid-item:hover { 
+    border: 5px solid blue;
+    color: blue;
   }
 
   .grid-item:nth-child(1) {

@@ -1,8 +1,5 @@
 .tarjetas { 
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 10px;
+    @include flex-tarjetas (flex, space-around, wrap, 10px)
 }
 
 
@@ -21,7 +18,7 @@
 }
 
 .item-tarjeta img { 
-   width: 250px;
+   width: 280px;
    height: 250px;
    
 } 
@@ -35,14 +32,13 @@
    
 }
 
-.item-tarjeta a { 
-    padding: 10px;
-    width: 200px;
-    background-color: blue;
-    color: white;
-    border: 2px;
-    border-radius: 10px;
-    text-decoration: none;
-    
-   
-    }
+.boton{
+    background-color: map-get($boton, bg-boton);
+    border-radius: map-get($boton, radio);
+    color: map-get($boton, color-texto);
+    padding: map-get($boton, alto);
+    width: map-get($boton, ancho);
+    text-decoration: map-get($boton, subrayado);
+}
+
+
