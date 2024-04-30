@@ -458,6 +458,7 @@ header a img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .tipo-de-consulta {
@@ -471,6 +472,7 @@ header a img {
   display: flex;
   justify-content: space-around;
   margin: 20px;
+  align-items: center;
 }
 
 .botones-formulario {
@@ -479,6 +481,11 @@ header a img {
   margin-top: 20px;
   margin-right: 730px;
   margin-bottom: 20px;
+}
+
+.cajaform {
+  margin: 5px;
+  display: flex;
 }
 
 @media screen and (max-width: 1110px) {
