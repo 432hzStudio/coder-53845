@@ -247,7 +247,7 @@ header a img {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 20px;
 }
 
 .item-tarjeta {
@@ -255,11 +255,13 @@ header a img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: solid 2px;
-  margin: 10px;
+  border: solid 3px;
+  border-radius: 15px;
+  margin: 20px;
   text-align: center;
   width: 400px;
   height: 500px;
+  box-shadow: 10px 10px 10px rgb(192, 191, 191);
 }
 
 .item-tarjeta img {
@@ -268,7 +270,11 @@ header a img {
 }
 
 .item-tarjeta h2 {
-  font-size: 25px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
 }
 
 .item-tarjeta p {
@@ -310,6 +316,11 @@ header a img {
     font-size: 15px;
   }
 }
+main h2 {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
 .grid-container {
   border: solid 3px color red;
   width: 100%;
@@ -384,6 +395,12 @@ header a img {
   grid-row: span 2;
 }
 
+@media screen and (max-width: 560px) {
+  main h2 {
+    margin-left: 0px;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 890px) {
   .grid-container {
     border: solid 3px color red;

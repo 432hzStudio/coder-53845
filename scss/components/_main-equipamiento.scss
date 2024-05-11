@@ -1,38 +1,48 @@
-.tarjetas { 
-    @include flex-tarjetas (flex, space-around, wrap, 10px)
+.tarjetas {
+    @include flex-tarjetas (flex, space-around, wrap, 20px)
 }
 
 
-.item-tarjeta { 
+.item-tarjeta {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid 2px;
-    margin: 10px;
+    border: solid 3px;
+    border-radius: 15px;
+    margin: 20px;
     text-align: center;
     width: 400px;
     height: 500px;
-    
-    
+    box-shadow: 10px 10px 10px rgb(192, 191, 191);
+
+
 }
 
-.item-tarjeta img { 
-   width: 280px;
-   height: 250px;
-   
-} 
+.item-tarjeta img {
+    width: 280px;
+    height: 250px;
 
-.item-tarjeta h2 { 
-    font-size: 25px;
+
+}
+
+.item-tarjeta h2 {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+
 }
 
 .item-tarjeta p {
     margin: 10px;
-   
+
+
 }
 
-.boton{
+.boton {
     background-color: map-get($boton, bg-boton);
     border-radius: map-get($boton, radio);
     color: map-get($boton, color-texto);
@@ -40,5 +50,3 @@
     width: map-get($boton, ancho);
     text-decoration: map-get($boton, subrayado);
 }
-
-
