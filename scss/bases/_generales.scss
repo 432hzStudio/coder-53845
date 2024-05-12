@@ -42,6 +42,7 @@ $boton: (
 
 %flex-articulo-titulo {
     font-size: nth($font-size,2);
+   
 }
 
 %flex-articulo-parrafo {
@@ -56,6 +57,7 @@ $boton: (
 }
 
 /*MIXIN*/
+/*TARJETAS EQUIPAMIENTO*/
 
 @mixin flex-tarjetas ($flex, $justify, $wrap, $margin){
     display: $flex;

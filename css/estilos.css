@@ -36,6 +36,7 @@
 }
 
 /*MIXIN*/
+/*TARJETAS EQUIPAMIENTO*/
 header a img {
   width: 350px;
   height: 100px;
@@ -83,7 +84,14 @@ header a img {
   border: solid 1px blue;
 }
 
+.d-block {
+  height: 450px;
+}
+
 @media screen and (max-width: 1110px) {
+  .d-block {
+    height: 80%;
+  }
   .articulo {
     display: flex;
     justify-content: space-evenly;
@@ -140,6 +148,11 @@ header a img {
     padding: 0px;
   }
 }
+@media screen and (max-width: 666px) {
+  .textopie {
+    font-size: 12px;
+  }
+}
 @media screen and (max-width: 650px) {
   .opciones .nav-link {
     font-size: 12px;
@@ -170,6 +183,11 @@ header a img {
     height: 60%;
   }
 }
+@media screen and (max-width: 500px) {
+  .textopie {
+    font-size: 10px;
+  }
+}
 @media screen and (max-width: 470px) {
   header a img {
     width: 250px;
@@ -180,10 +198,12 @@ header a img {
     padding: 10px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .textopie {
-    font-size: 12px;
+    font-size: 8px;
   }
+}
+@media screen and (max-width: 400px) {
   .articulo div h2 {
     font-size: 20px;
   }
@@ -243,6 +263,11 @@ header a img {
     font-weight: 400;
   }
 }
+.titulo-equipos {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
 .tarjetas {
   display: flex;
   justify-content: space-around;
@@ -290,6 +315,13 @@ header a img {
   text-decoration: none;
 }
 
+@media screen and (max-width: 560px) {
+  .titulo-equipos {
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 440px) {
   .item-tarjeta {
     width: 80%;
@@ -316,9 +348,10 @@ header a img {
     font-size: 15px;
   }
 }
-main h2 {
+.titulo-servicios {
   margin-top: 20px;
   margin-left: 100px;
+  text-align: left;
 }
 
 .grid-container {
@@ -396,7 +429,8 @@ main h2 {
 }
 
 @media screen and (max-width: 560px) {
-  main h2 {
+  .titulo-servicios {
+    margin-top: 20px;
     margin-left: 0px;
     text-align: center;
   }
@@ -521,12 +555,22 @@ main h2 {
   align-items: center;
 }
 
-.botones-formulario {
+.text-area {
   display: flex;
-  justify-content: right;
-  margin-top: 20px;
-  margin-right: 730px;
-  margin-bottom: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.boton {
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  width: 200px;
+  text-decoration: none;
+  margin: 10px;
 }
 
 .cajaform {
@@ -581,7 +625,7 @@ main h2 {
 footer {
   background-color: rgb(0, 250, 215);
   width: 100%;
-  height: 100px;
+  height: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -642,8 +686,11 @@ footer section div ul li a {
 
 .textopie {
   width: 100%;
+  height: 15px;
   background-color: rgb(0, 250, 215);
   font-family: helvetica;
   font-weight: 600;
   display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }/*# sourceMappingURL=estilos.css.map */

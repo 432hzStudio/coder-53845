@@ -1,4 +1,9 @@
 @media screen and (max-width:1110px) {
+    .d-block { 
+        height: 80%;
+    }
+    
+
     .articulo {
         display: flex;
         justify-content: space-evenly;
@@ -78,6 +83,14 @@
 
 }
 
+@media screen and (max-width:666px) {
+
+.textopie {
+    font-size: 12px;
+}
+}
+
+
 @media screen and (max-width:650px) {
     .opciones .nav-link {
        
@@ -121,6 +134,14 @@
 
 }
 
+
+@media screen and (max-width:500px) { 
+.textopie {
+    font-size: 10px;
+}
+}
+
+
 @media screen and (max-width:470px) { 
     header a img {
         width: 250px;
@@ -131,16 +152,20 @@
         padding: 10px;
     
     }
+}
 
+@media screen and (max-width:420px) { 
+    .textopie {
+        font-size: 8px;
+    }
 
 }
 
 
 
+
 @media screen and (max-width:400px) { 
-    .textopie {
-        font-size: 12px;
-    }
+ 
 
     .articulo div h2 {
         font-size: 20px;

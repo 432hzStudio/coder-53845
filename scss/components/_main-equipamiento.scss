@@ -1,3 +1,9 @@
+.titulo-equipos {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+
 .tarjetas {
     @include flex-tarjetas (flex, space-around, wrap, 20px)
 }
