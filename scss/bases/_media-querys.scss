@@ -37,6 +37,14 @@
     
 }
 
+@media screen and (max-width:1100px) {
+    .nav-link {
+        font-size: nth($font-size,1);
+
+}
+}
+
+
 
 
 @media screen and (max-width:900px) {

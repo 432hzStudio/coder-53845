@@ -9,25 +9,27 @@ header a img {
 }
 
 .navbar {
-    padding: 0px;
-        
-}
-
-.container-fluid {
     background-color: $color-principal;
     width: 100%;
-    position: sticky;
+    position:fixed;
     top: 0;
-    z-index: 1;
+    z-index: 1;  
 }
+
+
 .navbar .container-fluid { 
-    position: sticky;
+    background-color: $color-principal;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;  
+    
 }
 
 
 
 .nav-link {
-    font-size: nth($font-size,1);
+    font-size: nth($font-size,2);
     color: blue;
 
 
