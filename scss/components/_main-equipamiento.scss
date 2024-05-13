@@ -56,3 +56,9 @@
     width: map-get($boton, ancho);
     text-decoration: map-get($boton, subrayado);
 }
+
+.boton:hover { 
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+}
