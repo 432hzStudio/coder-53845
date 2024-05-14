@@ -578,7 +578,7 @@ body {
   text-align: center;
 }
 
-.boton {
+.boton2 {
   background-color: blue;
   border-radius: 10px;
   color: white;
@@ -586,6 +586,11 @@ body {
   width: 200px;
   text-decoration: none;
   margin: 10px;
+}
+
+.boton2:hover {
+  font-weight: 700;
+  color: white;
 }
 
 .cajaform {
